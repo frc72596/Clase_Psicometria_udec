@@ -29,7 +29,6 @@ B_LIKERT<-LIKERT$imputations[[3]]
 alpha(polydata) #alfa con datos perdidos -asegurese de usar la función del paquete psych
 alpha(B_LIKERT) #alfa sin datos perdidos- -asegurese de usar la función del paquete psych
 reliability(B_LIKERT) #mas indices de consistencia interna sin datos perdidos-  -asegurese de usar la función del paquete psych
-reliability(dichodata)
 itemAnalysis(B1)
 itemAnalysis(B2)
 dichodata <- na.omit(dichodata)  # Elimina filas con NA
